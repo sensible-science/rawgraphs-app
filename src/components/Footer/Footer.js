@@ -14,7 +14,14 @@ export default function Footer(props) {
         <Row>
           <Col xs={6} sm={{ span: 5, order: 1 }} lg={{ span: 3, order: 1 }}>
             <p className="Xsmall">
-              RAWGraphs is an open source project designed and developed by{' '}
+              <a
+                href="https://rawgraphs.io/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                RAWGraphs
+              </a>{' '}
+              is an open source project designed and developed by{' '}
               <a
                 href="http://densitydesign.org/"
                 target="_blank"
@@ -47,56 +54,6 @@ export default function Footer(props) {
           </Col>
           <Col xs={6} sm={{ span: 5, order: 3 }} lg={{ span: 3, order: 1 }}>
             <p className="Xsmall"></p>
-          </Col>
-          {/* <Col xs={6} sm={{span:5, order:3}} lg={{span:3,order:1}}><p className="Xsmall">This <span title={commitHash}>version</span> is intended to be available only for the backers of the crowdfunding campaign.</p></Col> */}
-          <Col
-            xs={6}
-            sm={{ span: 6, offset: 1, order: 2 }}
-            md={{ span: 3 }}
-            lg={{ offset: 0 }}
-            xl={{ span: 2, offset: 2 }}
-          >
-            <p>
-              <BsFillEnvelopeFill /> hello at rawgraphs.io
-            </p>
-            <p>
-              <FaTwitter />{' '}
-              <a
-                href="https://twitter.com/rawgraphs"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                @rawgraphs
-              </a>
-            </p>
-          </Col>
-          <Col
-            xs={6}
-            sm={{ span: 6, offset: 1, order: 4 }}
-            md={{ span: 2 }}
-            lg={{ offset: 0 }}
-            xl={{ span: 2, offset: 0 }}
-          >
-            <p>
-              <FaGithub />{' '}
-              <a
-                href="https://github.com/rawgraphs"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Github
-              </a>
-            </p>
-            <p>
-              <BsBarChartFill />{' '}
-              <a
-                href="https://old.rawgraphs.io"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                RAWGraphs v.1
-              </a>
-            </p>
           </Col>
         </Row>
       </Container>
