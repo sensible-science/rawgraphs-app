@@ -21,7 +21,6 @@ import usePrevious from './hooks/usePrevious'
 import { serializeProject as serializeProjectV1_1 } from './import_export_v1.1'
 import useDataLoader from './hooks/useDataLoader'
 import isPlainObject from 'lodash/isPlainObject'
-import CookieConsent from 'react-cookie-consent'
 
 // #TODO: i18n
 
